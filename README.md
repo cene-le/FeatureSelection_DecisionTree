@@ -4,17 +4,19 @@
 ## Deskripsi Dataset:
 - **Sumber Data:** [Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
 - **Atribut Utama:**
-  - Usia
-  - Durasi Tidur
-  - Kualitas Tidur
-  - Tingkat Aktivitas Fisik
-  - Tingkat Stres
-  - Kategori BMI
-  - Detak Jantung
-  - Langkah Harian
-  - Gangguan Tidur
-  - Tekanan Darah Sistolik
-  - Tekanan Darah Diastolik
+    -Person ID
+    -Gender (Male/Female).
+    -Age
+    -Occupation
+    -Sleep Duration (hours)
+    -Quality of Sleep (scale: 1-10)
+    -Physical Activity Level (minutes/day)
+    -Stress Level (scale: 1-10)
+    -BMI Category (e.g., Underweight, Normal, Overweight).
+    -Blood Pressure (systolic/diastolic)
+    -Heart Rate (bpm)
+    -Daily Steps
+    -Sleep Disorder:(None / No disorder, Insomnia, Sleep Apnea).
 
 ## Tujuan Eksperimen:
 Menganalisis peran Recursive Feature Elimination (RFE) pada algoritma Decision Tree untuk memahami dampaknya terhadap akurasi prediksi, interpretasi model, dan efisiensi komputasional.
